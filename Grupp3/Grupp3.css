@@ -11,13 +11,18 @@ h1 {
     color: darkblue;
     font-size: 24px;
 }
+h4{
+    margin-bottom: 4px;
+    font-size: 12px;
+}
 
 .inputlabel {
     font-size: 12px;
     color: rgba(98, 96, 116, 0.377);
     position: absolute;
-    top: 2px;
+    top: 0px;
     left: 16px;
+    
 }
 
 
@@ -35,7 +40,10 @@ input {
     background-color: white;
     height: 24px;
     border-radius: 4px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-left: 12px;
+    
+
 }
 
 input:focus {
@@ -53,8 +61,6 @@ input:focus {
     display: flex;
     justify-content: center;
 }
-
-
 
 
 .container{
@@ -81,9 +87,17 @@ input:focus {
 }
 
 .container-3 {
-    position: relative;
     display: flex;
-    justify-content: space-between;
+    
+}
+
+.boxcont3{
+    background-color: rgb(0, 255, 81);
+   flex: 0 0 50%;
+}
+.boxcont3 input{
+    background-color: rgb(0, 255, 81);
+   
 }
 
 
