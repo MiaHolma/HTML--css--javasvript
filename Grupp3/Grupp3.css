@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 body {
     display: flex;
     justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 
 
@@ -25,6 +27,21 @@ h4{
     
 }
 
+/* selectstyling */
+
+select {
+    border: 0;
+}
+
+input {
+    border: 0;
+}
+
+.inputstyle {
+    border: 0;
+}
+
+
 
 /* containerstyling */
 
@@ -40,11 +57,13 @@ input {
     background-color: white;
     height: 24px;
     border-radius: 4px;
-    padding-top: 12px;
-    padding-left: 12px;
+    padding: 8px;
     
 
 }
+
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
 
 input:focus {
     background-color: rgb(220, 224, 255);
