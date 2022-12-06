@@ -5,18 +5,49 @@ body {
 }
 
 
+/* headerstyling */
 
-.input {}
+h1 {
+    color: darkblue;
+    font-size: 24px;
+}
+
+.h4-input {
+    font-size: 12px;
+    color: rgba(98, 96, 116, 0.377);
+    position: absolute;
+    top: 2px;
+    left: 16px;
+}
 
 
+/* containerstyling */
 
 
+.containerstyle {
+    margin-bottom: 24px;
+}
+
+
+/* inputstyling */
+
+input {
+    background-color: white;
+    height: 24px;
+    border-radius: 4px;
+    padding: 12px
+}
+
+
+.inputstyle {
+    border: solid 1px rgb(215, 215, 215);
+}
 
 
 
 
 .container{
-    background-color: red;
+    background-color: rgb(228, 228, 228);
 
     padding: 24px;
 
@@ -29,84 +60,51 @@ body {
 .container-1{
     display: flex;
     flex-direction: column;
-
-    background-color: darkred;
-    padding: 12px;
+    position: relative;
+    
 }
 
+
 .container-2 {
-    background-color: blue;
-    padding: 12px;
+    margin-bottom: 24px;
+    position: relative;
 }
 
 .container-3 {
-    background-color: rgb(0, 255, 247);
-    padding: 12px;
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-.option-100 {
-    width: 100%;
-}
 
 .container-4 {
-    background-color: rgb(0, 255, 17);
-    padding: 12px;
-
 }
 
 .container-5 {
-    background-color: rgb(169, 210, 44);
-    padding: 12px;
     display: flex;
+    
 }
 
-
 .container-6 {
-    background-color: rgb(0, 255, 247);
-    padding: 12px;
     display: flex;
     justify-content: space-between;
 }
 
 .container-7 {
-    background-color: rgb(255, 204, 0);
-    padding: 12px;
     display: flex;
     justify-content: space-between;
 }
 
 
 .container-8 {
-    background-color: rgb(0, 255, 247);
-    padding: 12px;
     display: flex;
     justify-content: space-between;
 }
 
-.container-8,
-input {
-    
-}
 
 .container-9 {
-    background-color: rgb(255, 204, 0);
-    padding: 12px;
     display: flex;
 }
 
-.input-9 {
-    margin-left: 4px;
-}
 
 
-
-
-
-
-.accbox {
-    padding: 12px;
-    background-color: antiquewhite;
-    
-}
