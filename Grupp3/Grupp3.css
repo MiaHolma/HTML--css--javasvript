@@ -44,6 +44,21 @@ h4{
     
 }
 
+/* selectstyling */
+
+select {
+    border: 0;
+}
+
+input {
+    border: 0;
+}
+
+.inputstyle {
+    border: 0;
+}
+
+
 
 /* containerstyling */
 
