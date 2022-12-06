@@ -47,6 +47,13 @@ input:focus {
     border: solid 1px rgb(215, 215, 215);
 }
 
+/* titlecontainer */
+
+.titlecontainer {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
