@@ -1,15 +1,28 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.input {}
+
+
+
+
+
+
+
 
 .container{
     background-color: red;
 
-    width: 500px;
-    height: 500px;
-
     padding: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
 }
 
@@ -25,12 +38,75 @@ body {
     background-color: blue;
     padding: 12px;
 }
+
+.container-3 {
+    background-color: rgb(0, 255, 247);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option-100 {
+    width: 100%;
+}
+
+.container-4 {
+    background-color: rgb(0, 255, 17);
+    padding: 12px;
+
+}
+
+.container-5 {
+    background-color: rgb(169, 210, 44);
+    padding: 12px;
+    display: flex;
+}
+
+
+.container-6 {
+    background-color: rgb(0, 255, 247);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-7 {
+    background-color: rgb(255, 204, 0);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.container-8 {
+    background-color: rgb(0, 255, 247);
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-8,
+input {
+    
+}
+
+.container-9 {
+    background-color: rgb(255, 204, 0);
+    padding: 12px;
+    display: flex;
+}
+
+.input-9 {
+    margin-left: 4px;
+}
+
+
+
+
+
+
 .accbox {
     padding: 12px;
     background-color: antiquewhite;
     
 }
-
-/* .container-2, input {
-    flex: 0 0 1000%;
-} */
