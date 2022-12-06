@@ -25,6 +25,11 @@ body {
     background-color: blue;
     padding: 12px;
 }
+.accbox {
+    padding: 12px;
+    background-color: antiquewhite;
+    border: solid 1px lightgray;
+}
 
 /* .container-2, input {
     flex: 0 0 1000%;
