@@ -64,6 +64,9 @@ input {
 
 }
 
+input {border:0;outline:0;}
+input:focus {outline:none!important;}
+
 input:focus {
     background-color: rgba(207, 210, 240, 0.424);
 }
