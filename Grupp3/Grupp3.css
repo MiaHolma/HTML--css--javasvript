@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 
 body {
     display: flex;
     justify-content: center;
-    font-family:  rgb(114, 114, 114) Hat Display;
+    font-family: Arial;
 }
 
 
